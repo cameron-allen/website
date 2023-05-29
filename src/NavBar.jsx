@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav} from "react-bootstrap";
 import "./index.css";
 
 import { IconContext } from 'react-icons';
@@ -31,9 +31,9 @@ function App() {
             target="_blank" rel="noopener noreferrer" id="social">
               <AiFillGithub size={50} />
             </a>
-            <a href="#" id="social" onClick={handleCopy}>
-              <CiMail size={50} />
-            </a>
+            <CiMail size={50} onClick={handleCopy} 
+            style={{cursor: "pointer"}}
+            id="social" title="copy email"/>
           </Nav>
         </IconContext.Provider>
     </Navbar>
