@@ -5,15 +5,15 @@ export class Home extends React.Component {
     
     render() {
         return <>
-            <div className="container d-flex justify-content-center pt-4 px-3">
-                <img className="img-fluid rounded-5 mx-auto max-size-img" 
-                src="https://drive.google.com/uc?export=view&id=1XJ1R5_Klg0zFSPLnZz-AVgLQkvRX7Xgl" alt="" />    
-                {/*https://drive.google.com/file/d/1XJ1R5_Klg0zFSPLnZz-AVgLQkvRX7Xgl/view?usp=sharing */}   
+            <div className="container mt-5 d-flex 
+            justify-content-center">
+                <img className="col max-size-img" 
+                src="https://drive.google.com/uc?export=view&id=1CPimAyPh2O8XtY9iScvQosii5FKHlEBv" alt="" />
+                <div className='col text-white' style={{paddingLeft: '4rem'}}>
+                    <h1>About Me</h1>
+                    <p>I like cheese.</p>
+                </div>
             </div>
-            {/* <div className='container'>
-                <header style ={{fontWeight: "bold"}} className='bg-secondary'>Hello</header>
-                <p>Yeet</p>
-            </div> */}
         </>;
     }
 }

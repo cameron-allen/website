@@ -18,14 +18,13 @@ code {
 }
 
 .max-size-img {
-  max-width: 540px;
-  max-height: 431.2px;
+  min-width: 204px;
+  min-height: 228px;
+
+  max-width: 306px;
+  max-height: 342px;
 }
 
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
+#social {
+  margin-left: 1rem;
 }
