@@ -9,8 +9,8 @@ export class Home extends React.Component {
             justify-content-center">
                 <img className="col max-size-img" 
                 src="https://drive.google.com/uc?export=view&id=1CPimAyPh2O8XtY9iScvQosii5FKHlEBv" alt="" />
-                <div className='col text-white' style={{paddingLeft: '4rem'}}>
-                    <h1>About Me</h1>
+                <div className='col text-white responsive-text'>
+                    <h1 style={{fontWeight: 'bold'}}>About Me</h1>
                     <p>I like cheese.</p>
                 </div>
             </div>
