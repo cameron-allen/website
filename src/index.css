@@ -35,20 +35,25 @@ code {
 }
 
 .responsive-text {
-  font-size: 1.8rem;      /* Initial font size */
+  font-size: 1.5rem;      /* Initial font size */
   margin-left: 8rem;
+}
+
+@media (max-width: 977px) {
+  .responsive-text {
+    margin-left: 7rem;
+  }
 }
 
 @media (max-width: 768px) {
   .responsive-text {
     font-size: .9rem;     /* Font size for even smaller screens */
-    margin-left: 2rem;
+    margin-left: 4rem;
   }
 }
 
 @media (max-width: 384px) {
-  .responsive-text {
-    font-size: .9rem;     /* Font size for even smaller screens */
+  .responsive-text {      /* Font size for even smaller screens */
     margin-left: 2rem;
   }
 }
