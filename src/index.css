@@ -18,7 +18,7 @@ code {
 }
 
 .max-size-img {           /*dims: 408 by 456px*/
-  min-width: 150px;
+  min-width: 100px;
   max-width: 408px;
 
   object-fit: contain;
