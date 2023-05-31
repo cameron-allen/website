@@ -17,12 +17,11 @@ code {
   background-color: #ff595a;
 }
 
-.max-size-img {
-  min-width: 204px;      /*dims: 408 by 456px*/
-  min-height: 228px;
-
+.max-size-img {           /*dims: 408 by 456px*/
+  min-width: 204px;
   max-width: 408px;
-  max-height: 456px;
+
+  object-fit: contain;
 }
 
 #social {
@@ -30,20 +29,26 @@ code {
 }
 
 .responsive-text {
-  font-size: 2rem;      /* Initial font size */
-  margin-left: 10rem;
+  font-size: 1.8rem;      /* Initial font size */
+  margin-left: 8rem;
+}
+
+.bio {
+  display: block;
+  text-align: left;
+  margin-right: 1.5rem;
 }
 
 @media (max-width: 990px) {
   .responsive-text {
-    font-size: 1.5rem;  /* Font size for smaller screens */
+    font-size: 1.5rem;    /* Font size for smaller screens */
     margin-left: 5rem;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .responsive-text {
-    font-size: 1rem;    /* Font size for even smaller screens */
-    margin-left: 3.5rem;
+    font-size: .9rem;     /* Font size for even smaller screens */
+    margin-left: 3rem;
   }
 }
