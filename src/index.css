@@ -18,7 +18,7 @@ code {
 }
 
 .max-size-img {           /*dims: 408 by 456px*/
-  min-width: 204px;
+  min-width: 150px;
   max-width: 408px;
 
   object-fit: contain;
@@ -28,27 +28,27 @@ code {
   margin-left: 1rem;
 }
 
-.responsive-text {
-  font-size: 1.8rem;      /* Initial font size */
-  margin-left: 8rem;
-}
-
 .bio {
   display: block;
   text-align: left;
   margin-right: 1.5rem;
 }
 
-@media (max-width: 990px) {
-  .responsive-text {
-    font-size: 1.5rem;    /* Font size for smaller screens */
-    margin-left: 5rem;
-  }
+.responsive-text {
+  font-size: 1.8rem;      /* Initial font size */
+  margin-left: 8rem;
 }
 
 @media (max-width: 768px) {
   .responsive-text {
     font-size: .9rem;     /* Font size for even smaller screens */
-    margin-left: 3rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 384px) {
+  .responsive-text {
+    font-size: .9rem;     /* Font size for even smaller screens */
+    margin-left: 2rem;
   }
 }
