@@ -49,7 +49,7 @@ function App() {
             style={{cursor: "pointer"}}
             id="social" title="copy email"/>
             <Toast show={showToast} onClose={() => setShowToast(false)} 
-            className="d-block w-auto h-auto ms-3">
+            className="d-block w-auto h-auto toast-spacing">
               <Toast.Body className="toast-body">copied</Toast.Body>
             </Toast>
           </Nav>
