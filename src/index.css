@@ -39,6 +39,10 @@ code {
   margin-left: 8rem;
 }
 
+.toast-body {
+  font-size: 16px;
+}
+
 @media (max-width: 977px) {
   .responsive-text {
     margin-left: 7rem;

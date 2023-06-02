@@ -12,7 +12,7 @@ export class Home extends React.Component {
                 <div className='col text-white responsive-text'>
                     <h1 style={{fontWeight: 'bold'}}>About Me</h1>
                     <p className='bio'>My name is Cameron Allen—an SMU graduate who likes 
-                    to code, draw and play the piano. I want to pursue a career in software development.
+                    to code, draw, write and play the piano. I want to pursue a career in software development.
                     Check out my socials and GitHub to see what I'm up to.</p>
                 </div>
             </div>
