@@ -18,8 +18,10 @@ code {
 }
 
 .max-size-img {           /*dims: 408 by 456px*/
-  min-width: 100px;
-  max-width: 408px;
+  min-width: 150px;
+  max-width: 600px;
+
+  margin-left: 1rem;
 
   object-fit: contain;
 }
@@ -76,5 +78,8 @@ code {
   }
   #social {
     margin-left: .7rem;
+  }
+  div.col h1 {
+    font-size: 1.3rem;
   }
 }
