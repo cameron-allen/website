@@ -18,7 +18,7 @@ code {
 }
 
 .max-size-img {           /*dims: 408 by 456px*/
-  min-width: 140px;
+  min-width: 180px;
   max-width: 600px;
 
   margin-left: 1rem;
@@ -81,5 +81,20 @@ code {
   }
   div.col h1 {
     font-size: 1.3rem;
+  }
+}
+@media (max-width: 425px) {
+  div.col h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .responsive-text {
+    margin-left: 1.5rem;
+    font-size: .6rem;
+  }
+  div.col h1 {
+    font-size: .8rem;
   }
 }
