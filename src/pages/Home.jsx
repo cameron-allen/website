@@ -6,8 +6,7 @@ export class Home extends React.Component {
 
     
     render() {
-        const googleDriveURL = 'https://drive.google.com/uc?export=view&id=1AVNSGiYX25sagdCV9pUxgOCwkbaAXOEU';
-
+        const googleDriveURL = 'https://drive.google.com/uc?export=view&id=1IaLJPor35-BSfPwW4p9ieVJabmlK0Ini';
         return <>
             <div className="container mt-5 d-flex 
             justify-content-center">
